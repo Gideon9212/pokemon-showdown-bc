@@ -19749,4 +19749,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+    kasliscourge: {
+		num: 8001,
+		name: "Kasli the Scourge",
+		types: ["Psychic", "Fire"],
+		baseStats: {hp: 68, atk: 65, def: 55, spa: 155, spd: 115, spe: 80},
+		abilities: {0: "Synchronize", 1: "Trace", H: "Telepathy"},
+		heightm: 1.6,
+		weightkg: 48.4,
+        gender: "F",
+		color: "White",
+		eggGroups: ["Human-Like", "Amorphous"],
+	},
 };
